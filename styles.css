@@ -93,10 +93,16 @@ ul {
   align-self: flex-start;
   width: 80%;
 }
+.btn,
+.border {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.25rem 1.5rem;
+}
 
 .btn {
   text-align: center;
-  border: 5px solid;
+  border: 2px solid;
   border-radius: 5px;
   border-color: #3882f6;
   background: #3882f6;
@@ -105,14 +111,13 @@ ul {
 }
 .border {
   text-align: center;
-  border-radius: 5px;
-  border-color: #3882f6;
   background: #3882f6;
   color: #e5e7eb;
-  padding: 5px;
   border: 2px solid;
+  border-radius: 5px;
   border-color: #eee;
   align-self: center;
+  padding: 0.25rem 1rem;
 }
 .btn-link {
   text-decoration: none;
@@ -149,6 +154,7 @@ ul {
   padding-bottom: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  padding: 0 11rem;
 }
 
 .section-2-content {
@@ -185,9 +191,17 @@ ul {
   flex: auto;
   background-color: #eee;
   padding: 2rem 14rem;
+  text-align: center;
 }
 .quote {
   font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.author {
+  font-size: 18px;
+  text-align: right;
 }
 .section-4 {
   display: flex;
