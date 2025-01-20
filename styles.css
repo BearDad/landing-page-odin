@@ -22,6 +22,7 @@ header {
   background-color: #141b24;
   padding: 0 14rem;
 }
+
 .wrapper-header {
   flex: auto;
   color: white;
@@ -29,11 +30,13 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
 .logo {
   text-align: center;
   align-content: center;
   font-size: 2em;
 }
+
 nav {
   display: flex;
 
@@ -58,10 +61,12 @@ ul {
   margin: 0;
   gap: 1rem;
 }
+
 .section-1 {
   background: #1f2937;
   padding: 2rem 14rem;
 }
+
 .section-1-content {
   display: flex;
   justify-content: center;
@@ -78,6 +83,7 @@ ul {
   padding: 2rem;
   flex: 1.5 1 500px;
 }
+
 .Intro {
   color: #f9faf8;
   font-size: 48px;
@@ -85,6 +91,7 @@ ul {
   align-self: flex-start;
   text-align: left;
 }
+
 .description {
   color: #e5e7eb;
   text-align: left;
@@ -93,6 +100,7 @@ ul {
   align-self: flex-start;
   width: 80%;
 }
+
 .btn,
 .border {
   font-weight: bold;
@@ -109,6 +117,7 @@ ul {
   color: #e5e7eb;
   align-self: flex-start;
 }
+
 .border {
   text-align: center;
   background: #3882f6;
@@ -119,6 +128,7 @@ ul {
   align-self: center;
   padding: 0.25rem 1rem;
 }
+
 .btn-link {
   text-decoration: none;
   color: inherit;
@@ -132,6 +142,7 @@ ul {
   align-items: center;
   flex: 1;
 }
+
 .img-1 {
   width: 100%;
   height: 100%;
@@ -149,12 +160,12 @@ ul {
   text-align: center;
   padding: 0 14rem;
 }
+
 .section-2-wrapper {
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding: 0 11rem;
 }
 
 .section-2-content {
@@ -174,11 +185,13 @@ ul {
   flex: 1;
   justify-content: space-evenly;
 }
+
 .section-2-content-wrapper p {
   font-size: 18px;
   text-align: center;
   text-wrap: wrap;
 }
+
 .section-2-images {
   width: 200px;
   height: 200px;
@@ -193,21 +206,25 @@ ul {
   padding: 2rem 14rem;
   text-align: center;
 }
+
 .quote {
   font-size: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .author {
   font-size: 18px;
   text-align: right;
 }
+
 .section-4 {
   display: flex;
   padding: 0 14rem;
   justify-content: center;
 }
+
 .section-4-content {
   display: flex;
   margin: 2rem 0;
@@ -219,6 +236,7 @@ ul {
   flex: auto;
   justify-content: space-evenly;
 }
+
 .section-4-left {
   display: flex;
   margin: 0;
@@ -226,14 +244,17 @@ ul {
   justify-self: flex-start;
   flex-direction: column;
 }
+
 .section-4-left h1 {
   font-size: 24px;
   margin: 0;
   padding: 0;
 }
+
 .section-4-left p {
   margin-top: 8px;
 }
+
 .section-4-right {
   display: flex;
   justify-content: center;
@@ -244,6 +265,7 @@ footer {
   background-color: #1f2937;
   padding: 0 14rem;
 }
+
 .wrapper-footer {
   display: flex;
   flex: auto;
@@ -252,11 +274,13 @@ footer {
   justify-content: space-between;
   color: #e5e7eb;
 }
+
 .footer-icons {
   align-self: center;
   display: flex;
   gap: 1rem;
 }
+
 .copyright {
   flex: 1;
   text-align: center;
