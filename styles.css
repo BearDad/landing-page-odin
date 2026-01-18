@@ -20,7 +20,7 @@ body {
 
 header {
   background-color: #141b24;
-  padding: 0 14rem;
+  padding: 0 3%;
 }
 
 .wrapper-header {
@@ -64,7 +64,7 @@ ul {
 
 .section-1 {
   background: #1f2937;
-  padding: 2rem 14rem;
+  padding: 2% 2%;
 }
 
 .section-1-content {
@@ -76,11 +76,11 @@ ul {
 }
 
 .section-1-left {
-  display: flex;
+  display: flow-root;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 1%;
   flex: 1.5 1 500px;
 }
 
@@ -94,11 +94,11 @@ ul {
 
 .description {
   color: #e5e7eb;
-  text-align: left;
+  text-align: justify;
   text-wrap: wrap;
   font-size: 18px;
-  align-self: flex-start;
-  width: 80%;
+  align-self: center;
+  /* width: 80%; */
 }
 
 .btn,
@@ -136,7 +136,7 @@ ul {
 
 .section-1-right {
   display: flex;
-  padding: 2rem;
+  padding: 2%;
   align-self: center;
   justify-content: center;
   align-items: center;
@@ -155,6 +155,7 @@ ul {
 
 .section-2 {
   flex: auto;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -187,8 +188,10 @@ ul {
 }
 
 .section-2-content-wrapper p {
+  display: flex;
+  flex-direction: column;
   font-size: 18px;
-  text-align: center;
+  text-align: justify;
   text-wrap: wrap;
 }
 
